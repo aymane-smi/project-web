@@ -1,0 +1,124 @@
+		.navbar-default .navbar-nav >li>a{
+			font-weight: bold;
+		}
+		.navbar-default .navbar-brand{
+			font-weight: bold italic;
+		}
+		.thumbnail{
+			background: #eeeeee;
+		}
+		h1{
+    		font-family: 'Oswald', sans-serif;
+		}
+		img{
+			/*height: 600px;
+			width: 200px;*/
+			margin-bottom: 10px;
+		}
+		p{
+			font-family: 'Open Sans Condensed', sans-serif;
+			text-align: center;
+		}
+		#logo{
+			height: 60px;
+			width: 80px;
+		}
+		body{
+			background: url("img/bg.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-attachment: fixed;
+			height: 100%;
+		}
+		.logo{
+			margin-top: 8px; 
+		}
+		#cen{
+			text-align: center;
+		}
+		.bg-color{
+			background: rgb(32,1,154);
+		}
+		.font-clr{
+			color:white;
+		}
+		.thumbnail img {
+    		height:255px;
+    		width:90%;
+		}
+		.img-thumbnail{
+			border-color: #999999;
+			position: relative;
+		}
+		.thumbnail{
+			border: 0px;
+  			width: auto;
+  			position: relative;
+  			border: #999999 solid 1px;
+
+		}
+		.jumbotron{
+			margin-top: 55px;
+		}
+		.aproprs-fr{
+			border: solid 3px #eeeeee;
+			border-radius: 10px;
+			padding: 3px;
+			background: #eeeeee;
+			font-family: 'Inconsolata', monospace;
+			font-size: 1.5em;
+		}
+		.aproprs-ar{
+			font-family: 'Lalezar', cursive;
+			border: solid 3px #eeeeee;
+			border-radius: 10px;
+			padding: 3px;
+			background: #eeeeee;
+			font-size: 1.5em;
+		}
+		h3#ar{
+			float: right;
+			font-family: 'Open Sans Condensed', sans-serif;
+		}
+		h3#fr{
+			float: left;
+			font-family: 'Open Sans Condensed', sans-serif;
+		}
+		hr.style18 { 
+  		height: 30px; 
+  		border-style: solid; 
+  		border-color: #8c8b8b; 
+  		border-width: 1px 0 0 0; 
+  		border-radius: 20px; 
+		} 
+		hr.style18:before { 
+  		display: block; 
+  		content: ""; 
+  		height: 30px; 
+  		margin-top: -31px; 
+  		border-style: solid; 
+  		border-color: #8c8b8b; 
+  		border-width: 0 0 1px 0; 
+  		border-radius: 20px; 
+		}
+		.overlay {
+  		position: absolute;
+  		font-family: 'Lalezar', cursive;
+  		bottom: 0;
+  		background: rgb(0, 0, 0);
+  		background: rgba(0, 0, 0, 0.9); 
+  		color: #f1f1f1;
+  		width: 100%;
+  		transition: .5s ease;
+  		opacity:0;
+  		color: white;
+  		font-size: 20px;
+  		padding: 20px;
+  		left: 0px;
+  		text-align: center;
+  		border-radius: 4px;
+		}
+		.thumbnail:hover .overlay {
+  		opacity: 1;
+		}

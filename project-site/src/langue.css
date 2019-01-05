@@ -1,0 +1,40 @@
+#ar{
+	top: 0px;
+	background: #14bc22;
+	right: 0px;
+	width: 50%;
+	height: 100%;
+	position: fixed;
+	overflow-x: hidden;
+	font-family: 'Amiri', serif;
+	text-align: center;
+	padding-top: 30%;
+	font-size: 8vw;
+}
+#fr{
+	padding-top: 30%;
+	font-size: 8vw;
+	text-align: center;
+	top: 0px;
+	background: #29b2d1;
+	left: 0px;
+	width: 50%;
+	height: 100%;
+	position: fixed;
+	overflow-x: hidden;
+	font-family: 'Gamja Flower', cursive;
+}
+#fr:hover{
+	opacity: 0.4;
+	padding-top: 20%;
+	transition: padding-top 1.75s;
+}
+#ar:hover{
+	opacity: 0.4;
+	padding-top: 20%;
+	transition: padding-top 1.75s;
+}
+a, a:visited, a:active{
+	text-decoration: none;
+	color: black;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="src/style.css">
+	<link rel="shortcut icon" href="../project-site/src/img/logo.png">
+	<title>لعبة الحساب</title>
+</head>
+<body>
+	<header>
+		الوقت المنقضي:
+		<br>
+		<span id="h">00</span>:<span id="m">00</span>:<span id="s">00</span><br>
+		<span id="chronometre">00</span>
+	</header>
+	<div id="operation">
+		<select id="niveau" style="float: left;">
+			<option value="1">مبتدئ</option>
+			<option value="2">متوسط</option>
+			<option value="3">نابغة</option>
+		</select>
+		<center>
+		<input type="text" name="op1">
+		<select id="op">
+			<option value="plus">+</option>
+			<option value="moins">-</option>
+			<option value="multi">*</option>
+			<option value="divi">/</option>
+		</select>
+		<input type="text" name="op2">
+
+		<h1>=</h1><input type="text" name="resu" >
+		<br>
+		<center>
+		<button onclick="r+=calcule(); generer(); chrono=5;" style="margin-top: 5%">حساب</button>
+		<button onclick="generer(); chrono=5;" style="margin-top: 5%">تغير</button>
+		<button onclick="alert('votre sccore est:'+r);" style="margin-top: 5%">نقطي</button>
+	</center>
+	</div>
+	<div id="resulta">
+		<div id="joueur"></div>
+		<div id="machine"></div>
+	</div>
+	<script type="text/javascript" src="src/main.js"></script>
+</body>
+</html>

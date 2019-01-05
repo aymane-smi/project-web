@@ -1,0 +1,26 @@
+.center-box{
+	margin: 90px auto auto;
+	width: 500px;
+	height: 200px;
+}
+html{
+	height: 100%;
+}
+body{
+	background: url("img/bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	background-attachment: fixed;
+}
+.jumbotron{
+	min-width: 375px;
+}
+input[type="email"]{
+	margin-left: 0px;
+}
+form{
+	border: black 5px solid;
+	padding: 19px;
+	border-radius: 20px;
+}
